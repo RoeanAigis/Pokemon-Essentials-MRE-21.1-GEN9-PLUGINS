@@ -1,0 +1,9 @@
+﻿Name       = Arcky's Region Map
+Version    = 2.1.1
+Essentials = 20.1, 21.1
+Optional   = Modern Quest System + UI, 1.0
+Optional   = Lin's Pokegear Themes, 1.0.9
+Optional   = Lin's Weather System, v1.3.3
+Credits    = Arcky
+
+#IMPORTANT: only edit the 001_RegionMap_Settings.rb file. Use Notepad++ or any similar code editors to change settings that are in this file.

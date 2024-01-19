@@ -1,0 +1,13 @@
+Name       = Deluxe Battle Kit 
+Version    = 1.0
+Essentials = 21.1
+Requires   = v21.1 Hotfixes,1.0.6
+Optional   = Generation 9 Pack,2.0
+Optional   = Generation 8 Pack Scripts,1.0
+Optional   = Modular UI Scenes,2.0.3
+Conflicts  = Essentials Deluxe,1.0
+Conflicts  = Mid Battle Dialogue,1.0
+Conflicts  = Elite Battle: DX,1.0
+Conflicts  = SOS Battles,1.0
+Website    = https://reliccastle.com/resources/1470/
+Credits    = Lucidious89
