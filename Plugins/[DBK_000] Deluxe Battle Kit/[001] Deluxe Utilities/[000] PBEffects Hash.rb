@@ -13,13 +13,13 @@ $DELUXE_PBEFFECTS = {
   #-----------------------------------------------------------------------------
   :field => {
     :counter => [
-      :FairyLock, 
       :MudSportField,
       :WaterSportField,
       :Gravity,
       :MagicRoom, 
       :TrickRoom, 
       :WonderRoom,
+      :FairyLock, 
       :PayDay
     ],
     :boolean => [
@@ -33,11 +33,11 @@ $DELUXE_PBEFFECTS = {
   :team => {
     :counter => [
       :AuroraVeil,
-      :LightScreen,
       :Reflect,
-      :LuckyChant, 
-      :Mist,  
+      :LightScreen,
       :Safeguard,
+      :Mist,
+      :LuckyChant,
       :Tailwind,
       :Rainbow, 
       :Swamp, 
@@ -50,10 +50,13 @@ $DELUXE_PBEFFECTS = {
       :Wildfire
     ],
     :boolean => [
-      :CraftyShield,
       :StealthRock,
       :Steelsurge,
-      :StickyWeb
+      :StickyWeb,
+      :CraftyShield,
+      :MatBlock,
+      :QuickGuard,
+      :WideGuard
     ]
   },
   #-----------------------------------------------------------------------------
@@ -61,34 +64,33 @@ $DELUXE_PBEFFECTS = {
   #-----------------------------------------------------------------------------
   :battler => {
     :counter => [
-      :Disable,
-      :HealBlock,	  
+      :MagnetRise,
+      :HealBlock,
       :Embargo,
-      :Encore,
       :Taunt,
-      :Telekinesis, 
-      :ThroatChop,
-      :SlowStart,
-      :PerishSong,
-      :Trapping,
-      :Uproar,
-      :Yawn,
+      :Disable,
+      :Encore,
+      :Telekinesis,
       :Splinters,
-      :Syrupy,
+      :Yawn,
+      :ThroatChop,
+      :LockOn,
+      :LaserFocus,
       :HyperBeam,
-      :Outrage,
-      :Rollout,
       :GlaiveRush,
       :Stockpile,
-      :FuryCutter,
-      :LockOn,
-      :MagnetRise,
+      :SlowStart,
+      :PerishSong,
+      :Syrupy,
       :Charge,
       :FocusEnergy,
-      :LaserFocus,
-      :Substitute,
+      :Toxic,
+      :Confusion,
+      :Outrage,
+      :Trapping,
+      :Uproar,
       :WeightChange,
-      :Confusion	  
+      :Substitute,
     ],
     :index => [
       :Attract,
@@ -99,40 +101,45 @@ $DELUXE_PBEFFECTS = {
       :SkyDrop
     ],
     :boolean => [
-      :Flinch,
-      :Transform,
       :TwoTurnAttack,
-      :NoRetreat,
-      :GastroAcid,
-      :HelpingHand,
-      :PowerTrick, 
-      :Rage,
       :AquaRing,
       :Ingrain,
       :Curse,
       :Nightmare,
-      :SaltCure, 
+      :SaltCure,
+      :Rage,
+      :Torment,
+      :GastroAcid,
+      :Imprison,
+      :TarShot,
       :Foresight,
       :MiracleEye,
       :Minimize,
+      :NoRetreat,
+      :MudSport,
+      :WaterSport,
+      :Flinch,
+      :Snatch,
+      :Quash,
+      :Protect,
+      :Obstruct,
+      :KingsShield,
+      :SpikyShield,
+      :BanefulBunker,
+      :BurningBulwark,
+      :HelpingHand,
+      :PowerTrick, 
       :Endure,
       :Grudge,
       :DestinyBond,
       :Roost,
       :SmackDown,
       :BurnUp,
-      :FlashFire,
-      :TarShot, 
       :DoubleShock,
       :Electrify,
       :ExtraType,
-      :MudSport,
-      :WaterSport,
-      :Imprison,
-      :Torment,
       :MagicCoat,
-      :Powder,
-      :DefenseCurl
+      :Powder
     ],
   },
   #-----------------------------------------------------------------------------
@@ -140,7 +147,8 @@ $DELUXE_PBEFFECTS = {
   #-----------------------------------------------------------------------------
   :position => {
     :counter => [
-      :Wish
+      :Wish,
+      :FutureSightCounter
     ],
     :boolean => [
       :HealingWish,

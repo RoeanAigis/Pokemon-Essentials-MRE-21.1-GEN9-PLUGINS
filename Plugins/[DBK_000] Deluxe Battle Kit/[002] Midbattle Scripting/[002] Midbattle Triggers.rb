@@ -646,6 +646,7 @@ MidbattleHandlers.add(:midbattle_triggers, "battlerHP",
     msg = _INTL("#{msg}", battler.pbThis(lowercase), trainerName) if msg
     old_hp = battler.hp
     if amt > 0
+	  battler.stopBoostedHPScaling = true
       battler.pbRecoverHP(battler.totalhp / amt)
     elsif amt <= 0
       if amt == 0
