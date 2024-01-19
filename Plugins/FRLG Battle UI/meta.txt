@@ -1,0 +1,4 @@
+Name       = FRLG Battle UI
+Version    = 2.2
+Essentials = 21
+Credits    = Shashu-Greninja, redblueyellow, Criminon
